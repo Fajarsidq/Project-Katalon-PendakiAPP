@@ -1,0 +1,360 @@
+[35m[Appium][39m Welcome to Appium v1.19.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 54795
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\LENOVO\AppData\Local\Temp\\Katalon\Appium\Temp1715208865364
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54795
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m11 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\LENOVO\\Katalon Studio\\project1\\mobileApp\\app-pendaki.apk","noReset":true,"newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554 (AOSP on IA Emulator - Android 9)","fullReset":false,"systemPort":54815},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\LENOVO\\Katalon Studio\\project1\\mobileApp\\app-pendaki.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (AOSP on IA Emulator - Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"android","appium:platformVersion":"9","appium:systemPort":54815,"appium:udid":"emulator-5554"}]}}[39m
+[35m[Appium][39m Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+[35m[BaseDriver][39m Session created with session id: 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[BaseDriver][39m Using local app 'C:\Users\LENOVO\Katalon Studio\project1\mobileApp\app-pendaki.apk'
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\LENOVO\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/LENOVO/AppData/Local/Android/Sdk/build-tools/35.0.0-rc3
+[35m[ADB][39m     C:/Users/LENOVO/AppData/Local/Android/Sdk/build-tools/34.0.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\LENOVO\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\LENOVO\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.wahidari.pendaki'
+[35m[ADB][39m Main activity name: 'com.wahidari.pendaki.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\LENOVO\AppData\Local\Android\Sdk\build-tools\35.0.0-rc3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\LENOVO\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.15.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\LENOVO\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m 'C:\Users\LENOVO\Katalon Studio\project1\mobileApp\app-pendaki.apk' is signed with a non-default certificate
+[35m[ADB][39m The application at 'C:\Users\LENOVO\Katalon Studio\project1\mobileApp\app-pendaki.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'app-pendaki.apk' took 1329ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.15.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\LENOVO\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.15.0.apk' and test from 'C:\Users\LENOVO\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.wahidari.pendaki/com.wahidari.pendaki.MainActivity and waiting for 'com.wahidari.pendaki/com.wahidari.pendaki.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 6514a0a4-0515-4628-9bf4-3b645c4c4894 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16468 ms - 1259[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894 [39m[32m200[39m [90m29 ms - 1213[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894 [39m[32m200[39m [90m31 ms - 1213[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m1583 ms - 37248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m1813 ms - 4285866[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m317 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m77 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/1b7c64ed-a983-4e97-96ed-5aceab7de42a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/1b7c64ed-a983-4e97-96ed-5aceab7de42a/location [39m[32m200[39m [90m30 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/1b7c64ed-a983-4e97-96ed-5aceab7de42a/click[39m
+[35m[HTTP][39m [90m{"id":"1b7c64ed-a983-4e97-96ed-5aceab7de42a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/1b7c64ed-a983-4e97-96ed-5aceab7de42a/click [39m[32m200[39m [90m43 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m1593 ms - 37248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m1469 ms - 4285912[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m39 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m148 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/4f3fba84-2836-4364-9950-c0270fe09acc/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/4f3fba84-2836-4364-9950-c0270fe09acc/location [39m[32m200[39m [90m34 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/4f3fba84-2836-4364-9950-c0270fe09acc/click[39m
+[35m[HTTP][39m [90m{"id":"4f3fba84-2836-4364-9950-c0270fe09acc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/4f3fba84-2836-4364-9950-c0270fe09acc/click [39m[32m200[39m [90m40 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m974 ms - 47160[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m732 ms - 1508156[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Lokasi Toko Outdoor' or . = 'Lokasi Toko Outdoor') and @resource-id = 'com.wahidari.pendaki:id/design_menu_item_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m142 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckedTextView' and (@text = 'Lokasi Toko Outdoor' or . = 'Lokasi Toko Outdoor') and @resource-id = 'com.wahidari.pendaki:id/design_menu_item_text']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m199 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/b9b008c5-02e6-4f86-875d-53e44e1a2b2f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/b9b008c5-02e6-4f86-875d-53e44e1a2b2f/location [39m[32m200[39m [90m27 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/b9b008c5-02e6-4f86-875d-53e44e1a2b2f/click[39m
+[35m[HTTP][39m [90m{"id":"b9b008c5-02e6-4f86-875d-53e44e1a2b2f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/b9b008c5-02e6-4f86-875d-53e44e1a2b2f/click [39m[32m200[39m [90m35 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m1361 ms - 14739[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m769 ms - 491552[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m90 ms - 2571[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Merr. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m28 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Merr. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m30 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/43f5121a-9a67-4cda-a572-b81c5f4dd4c3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/43f5121a-9a67-4cda-a572-b81c5f4dd4c3/location [39m[32m200[39m [90m24 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/43f5121a-9a67-4cda-a572-b81c5f4dd4c3/click[39m
+[35m[HTTP][39m [90m{"id":"43f5121a-9a67-4cda-a572-b81c5f4dd4c3"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/43f5121a-9a67-4cda-a572-b81c5f4dd4c3/click [39m[32m200[39m [90m39 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m677 ms - 12269[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m493 ms - 510744[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.view.View' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m74 ms - 1419[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m43 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m30 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m38 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/8633f914-0bd8-48b5-ad9b-8d9acaf3dfe0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/8633f914-0bd8-48b5-ad9b-8d9acaf3dfe0/location [39m[32m200[39m [90m32 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/8633f914-0bd8-48b5-ad9b-8d9acaf3dfe0/click[39m
+[35m[HTTP][39m [90m{"id":"8633f914-0bd8-48b5-ad9b-8d9acaf3dfe0"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/8633f914-0bd8-48b5-ad9b-8d9acaf3dfe0/click [39m[32m200[39m [90m38 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m605 ms - 16099[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m549 ms - 533936[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m25 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m39 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/a66bb9d4-5681-4c22-a2d4-2d8a65123a70/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/a66bb9d4-5681-4c22-a2d4-2d8a65123a70/location [39m[32m200[39m [90m32 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"a66bb9d4-5681-4c22-a2d4-2d8a65123a70"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: a66bb9d4-5681-4c22-a2d4-2d8a65123a70
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/touch/perform [39m[32m200[39m [90m2628 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m231 ms - 16099[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m411 ms - 533726[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m29 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m44 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/c4fca4a4-84f0-49b7-9e5f-b7a2886fcdee/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/c4fca4a4-84f0-49b7-9e5f-b7a2886fcdee/location [39m[32m200[39m [90m40 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/c4fca4a4-84f0-49b7-9e5f-b7a2886fcdee/click[39m
+[35m[HTTP][39m [90m{"id":"c4fca4a4-84f0-49b7-9e5f-b7a2886fcdee"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/c4fca4a4-84f0-49b7-9e5f-b7a2886fcdee/click [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m497 ms - 16099[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m800 ms - 533668[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m31 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/6c202517-6bed-4b37-a649-d71ec876348d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/6c202517-6bed-4b37-a649-d71ec876348d/location [39m[32m200[39m [90m23 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/6c202517-6bed-4b37-a649-d71ec876348d/click[39m
+[35m[HTTP][39m [90m{"id":"6c202517-6bed-4b37-a649-d71ec876348d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/6c202517-6bed-4b37-a649-d71ec876348d/click [39m[32m200[39m [90m35 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m508 ms - 16099[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m426 ms - 533668[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Eiger Adventure Store Kudus. "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/elements [39m[32m200[39m [90m42 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/90c5715d-3ed0-4949-aed6-48b7aa06fff4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/90c5715d-3ed0-4949-aed6-48b7aa06fff4/location [39m[32m200[39m [90m25 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/90c5715d-3ed0-4949-aed6-48b7aa06fff4/click[39m
+[35m[HTTP][39m [90m{"id":"90c5715d-3ed0-4949-aed6-48b7aa06fff4"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/element/90c5715d-3ed0-4949-aed6-48b7aa06fff4/click [39m[32m200[39m [90m37 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6514a0a4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 257e16f0-0e91-4b6c-95f6-c131d4d8f469 with 6514a0a4-0515-4628-9bf4-3b645c4c4894
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/source [39m[32m200[39m [90m486 ms - 16099[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894/screenshot [39m[32m200[39m [90m345 ms - 533676[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 6514a0a4-0515-4628-9bf4-3b645c4c4894 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/6514a0a4-0515-4628-9bf4-3b645c4c4894 [39m[32m200[39m [90m3465 ms - 14[39m
+[35m[HTTP][39m [90m[39m
